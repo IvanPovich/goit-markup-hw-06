@@ -302,9 +302,14 @@ img {
   }
 }
 
+@media only screen and (max-width: 767px) {
+  .logo-footer {
+    justify-content: center;
+  }
+}
+
 .logo-footer {
   display: flex;
-  justify-content: center;
   margin-bottom: 16px;
 }
 
@@ -521,17 +526,25 @@ img {
   }
 }
 
-.benefits-item {
-  text-align: left;
-}
-
 .benefits-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+
   text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
   .benefits-title {
     text-align: start;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .benefits-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
   }
 }
 
